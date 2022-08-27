@@ -82,6 +82,4 @@ This will make sure the entity is facing
 the camera.
 For this we have to use the A-Frame
 library link:
-https://unpkg.com/aframe-look-at-comp
-onent@0.8.0/dist/aframe-look-at-comp
-onent.min.js
+https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js
