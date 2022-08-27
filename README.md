@@ -12,7 +12,9 @@
 
 ● Right-click on the “blue” dot and click on the first row (having latitude and longitude). It will be copied automatically.
 
-● Paste it so
+● Paste it sowhere for later use.
+Note: Use values till 7 decimal places
+at max
 
 ------------------------------------------------
 
