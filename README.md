@@ -1,5 +1,20 @@
-# PRO-C180-Code-Ref
+# PRO-C180
+ 
+ 
+ Open Google Maps.
+● Click on the “Show Your Location” button.
 
+● Give permission to “Know yourlocation”.
+
+● Click on the “Show Your Location” button again.
+
+● Find the “blue” dot pointing to your location.
+
+● Right-click on the “blue” dot and click on the first row (having latitude and longitude). It will be copied automatically.
+
+● Paste it so
+
+------------------------------------------------
 
 GPS is a Global Positioning System. \n
 
