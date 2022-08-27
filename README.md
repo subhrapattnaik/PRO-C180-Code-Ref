@@ -58,7 +58,7 @@ Location—Determining a position. For example, finding your current location or
 Mapping—Creating maps of the world.
 -----------------------------------------------------------------------------
 
-
+----------------------------------------------------------
 To understand how we can use the A-Frame AR.js components to create location-based AR content, we will start with a demo scene. At a particular location (latitude and longitude), we will show a ball model.
 
 
@@ -71,3 +71,17 @@ For now, we will take the values of latitude and longitude from Google Maps.
 
 At last, to enable location AR, we need to set  as a GPS camera. We can use the gps-camera component for this.
 In this component, we can use two attributes: minDistance and positionMinAccuracy.
+---And to make sure the entity always
+points to the camera, we will use an
+A-Frame look-at component to the
+entity.
+We can give the value of the look-at
+component as a gps-camera so that it
+always faces the camera.
+This will make sure the entity is facing
+the camera.
+For this we have to use the A-Frame
+library link:
+https://unpkg.com/aframe-look-at-comp
+onent@0.8.0/dist/aframe-look-at-comp
+onent.min.js
