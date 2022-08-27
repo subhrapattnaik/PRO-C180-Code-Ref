@@ -24,7 +24,24 @@ We can provide the latitude and longitude as values to this component in the str
 
 gps-entity-place="latitude:<your-latitude>; longitude: <your-longitude>"
 ------------------------------------------------
+ So, when the gps-entity-place component is attached in <a-entity> tag, it will assign a position (latitude and longitude) on the Earth to that
+entity.
 
+ And when we point the device towards that position we can see the entity at that position.
+ 
+ If we are far from that position (latitude and longitude), then the entity will look small.
+-----------------------------------
+ Now to enable location AR, we need to set <a-camera> as a GPS camera.
+
+ We can use the gps-camera component for this.
+
+ We can set the attribute minDistance and positionMinAccuracy of the component:
+
+ ● minDistance: When this value is set, then if the distance of the user (having the GPS device) is lower than this value, then the entity at that position/location will not be shown.
+
+ ● positionMinAccuracy: Sets the tracking accuracy at that position
+ 
+ ------------------------------
 GPS is a Global Positioning System. \n
 
 
