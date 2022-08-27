@@ -15,7 +15,14 @@
 ● Paste it sowhere for later use.
 Note: Use values till 7 decimal places
 at max
+---------------------------------------
+Now once we have the location coordinates (latitude and longitude),
 
+we can place any entity in A-Frame using the gps-entity-place component.
+
+We can provide the latitude and longitude as values to this component in the string format:
+
+gps-entity-place="latitude:<your-latitude>; longitude: <your-longitude>"
 ------------------------------------------------
 
 GPS is a Global Positioning System. \n
